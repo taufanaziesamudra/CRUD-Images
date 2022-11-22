@@ -1,0 +1,11 @@
+02. Buat beberapa folder dan file
+      A. config
+            a. Database.js
+            b. Buat databasedi apache dan buat database "product_images"
+      B. controllers
+            a. ProductController (export saja tidak ada function)
+      C. models
+            a. Buat ProductRoutes.js dan ini buat table bernama product
+      D. routes
+            a. Buat router untuk dari ProductController
+      E. import ProductRoutes ke index.js

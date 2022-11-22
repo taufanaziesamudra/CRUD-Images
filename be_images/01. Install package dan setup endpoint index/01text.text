@@ -1,0 +1,10 @@
+01. Install package dan setup endpoint index
+      A. Install beberapa package 
+            a. express
+            b. express-fileupload
+            c. mysql2
+            d. cors
+            e. sequelize
+            f. nodemon
+      B. Set up Enpoint di index.js
+            - Tambah beberapa text di package ("type": "module",) dan ("start": "nodemon index.js")

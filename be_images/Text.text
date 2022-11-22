@@ -1,0 +1,32 @@
+01. Install package dan setup endpoint index
+      A. Install beberapa package 
+            a. express
+            b. express-fileupload
+            c. mysql2
+            d. cors
+            e. sequelize
+            f. nodemon
+      B. Set up Enpoint di index.js
+            - Tambah beberapa text di package ("type": "module",) dan ("start": "nodemon index.js")
+02. Buat beberapa folder dan file
+      A. config
+            a. Database.js
+            b. Buat databasedi apache dan buat database "product_images"
+      B. controllers
+            a. ProductController (export saja tidak ada function)
+      C. models
+            a. Buat ProductRoutes.js dan ini buat table bernama product
+      D. routes
+            a. Buat router untuk dari ProductController
+      E. import ProductRoutes ke index.js
+03. Buat fuction diproduct controller
+      A. getProduct
+      B. getProductById
+      C. saveProduct
+      D. Buat folder public/images
+      E. dan lakuan REST API dipostman
+      F. Kemudian ubah file gambar menjadi file static di index.js
+04. Buat fuction 
+      A. update
+            a. menambahkan (import fs from "fs") untuk mencari file gambar
+      B. delete

@@ -1,0 +1,7 @@
+03. Buat fuction diproduct controller
+      A. getProduct
+      B. getProductById
+      C. saveProduct
+      D. Buat folder public/images
+      E. dan lakuan REST API dipostman
+      F. Kemudian ubah file gambar menjadi file static di index.js

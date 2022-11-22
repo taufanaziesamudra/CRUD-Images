@@ -1,0 +1,4 @@
+04. Buat fuction 
+      A. update
+            a. menambahkan (import fs from "fs") untuk mencari file gambar
+      B. delete
